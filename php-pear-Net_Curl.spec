@@ -2,8 +2,8 @@
 %define         _class          Net
 %define         _subclass       Curl
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - an OO interface to the cURL extension
-Summary(pl):	%{_class}_%{_subclass} - obiektowy interfejs do rozszerzenia cURL
+Summary:	%{_pearname} - an OO interface to the cURL extension
+Summary(pl):	%{_pearname} - obiektowy interfejs do rozszerzenia cURL
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	3

@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Net_Curl is an object oriented interface which abstracts away the
 messy parts of dealing with PHP's cURL extension.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Net_Curl to obiektowo zorientowany interfejs, który tworzy warstwê

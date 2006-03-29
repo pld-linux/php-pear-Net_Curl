@@ -8,7 +8,7 @@ Summary:	%{_pearname} - an OO interface to the cURL extension
 Summary(pl):	%{_pearname} - obiektowy interfejs do rozszerzenia cURL
 Name:		php-pear-%{_pearname}
 Version:	1.2.2
-Release:	2
+Release:	3
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz

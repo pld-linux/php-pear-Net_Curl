@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an OO interface to the cURL extension
-Summary(pl):	%{_pearname} - obiektowy interfejs do rozszerzenia cURL
+Summary(pl.UTF-8):   %{_pearname} - obiektowy interfejs do rozszerzenia cURL
 Name:		php-pear-%{_pearname}
 Version:	1.2.3
 Release:	2
@@ -29,9 +29,9 @@ messy parts of dealing with PHP's cURL extension.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Net_Curl to obiektowo zorientowany interfejs, który tworzy warstwê
-abstrakcji dla nieprzyjaznych fragmentów obs³ugi rozszerzenia PHP
+%description -l pl.UTF-8
+Net_Curl to obiektowo zorientowany interfejs, ktÃ³ry tworzy warstwÄ™
+abstrakcji dla nieprzyjaznych fragmentÃ³w obsÅ‚ugi rozszerzenia PHP
 cURL.
 
 Ta klasa ma w PEAR status: %{_status}.

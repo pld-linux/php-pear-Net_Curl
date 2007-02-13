@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an OO interface to the cURL extension
-Summary(pl.UTF-8):   %{_pearname} - obiektowy interfejs do rozszerzenia cURL
+Summary(pl.UTF-8):	%{_pearname} - obiektowy interfejs do rozszerzenia cURL
 Name:		php-pear-%{_pearname}
 Version:	1.2.3
 Release:	2

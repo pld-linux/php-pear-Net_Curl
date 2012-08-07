@@ -1,13 +1,13 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Net
 %define		_subclass	Curl
 %define		_status		stable
-%define		_pearname	%{_class}_%{_subclass}
+%define		_pearname	Net_Curl
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - an OO interface to the cURL extension
 Summary(pl.UTF-8):	%{_pearname} - obiektowy interfejs do rozszerzenia cURL
 Name:		php-pear-%{_pearname}
 Version:	1.2.5
-Release:	2
+Release:	3
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -16,8 +16,8 @@ URL:		http://pear.php.net/package/Net_Curl/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
+Requires:	php(curl)
 Requires:	php-common >= 3:4.2.0
-Requires:	php-curl
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -50,4 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/%{_class}/*.php
+%{php_pear_dir}/Net/*.php

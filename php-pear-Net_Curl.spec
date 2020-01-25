@@ -2,7 +2,6 @@
 %define		_subclass	Curl
 %define		_status		stable
 %define		_pearname	Net_Curl
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - an OO interface to the cURL extension
 Summary(pl.UTF-8):	%{_pearname} - obiektowy interfejs do rozszerzenia cURL
 Name:		php-pear-%{_pearname}
